@@ -33,5 +33,7 @@ function postNewComment(body, commenter) {
   var newCommentDiv = document.createElement('div');
   newCommentDiv.appendChild(body);
   newCommentDiv.appendChild(commenter);
+  console.log(commentsDiv);
+  console.log(newCommentDiv);
   commentsDiv.appendChild(newCommentDiv);
 }
